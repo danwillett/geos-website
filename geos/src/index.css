@@ -1,0 +1,35 @@
+.overlay-text {
+    color: white !important;
+    font-weight: 900 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+  }
+  
+.button-text {
+    text-transform: none !important;
+}  
+
+.header {
+  font-weight: bold;  /* Makes the text bold */
+  position: relative; /* Needed for the pseudo-element positioning */
+  display: inline;    /* Keeps the underline inline with the text */
+  padding-bottom: 20px; /* Adds space between the text and line */
+}
+
+.header::after {
+  content: "";                /* Creates the pseudo-element */
+  position: absolute;          /* Position it relative to the text */
+  bottom: 0;                   /* Aligns it to the bottom of the text */
+  left: 0;                     /* Aligns the underline to the left of the text */
+  width: 70%;                 /* Controls the length of the underline (100% of the text width) */
+  height: 4px;                 /* Thickness of the underline */
+  background-color: #047C91;  /* Replace with your theme's aqua color, if needed */
+}
+.header::before {
+  content: "";                /* Creates the second pseudo-element */
+  position: absolute;         /* Position it relative to the text */
+  bottom: 0;                  /* Aligns it to the bottom of the text */
+  left: 70%;                   /* Start the second (gold) line immediately after the first one */
+  width: 30%;                 /* Width of the second (gold) line */
+  height: 4px;                /* Thickness of the second line */
+  background-color: #FEBC11;    /* Gold color */
+}
