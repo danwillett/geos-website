@@ -33,7 +33,7 @@ export default function FeaturedVideo(props: FeaturedVideoProps) {
         >
             <Box>
                 <video
-                    src="/media/videos/borderfield_dunes.mp4"
+                    src="geos-website/media/videos/banner.mp4"
                     autoPlay
                     muted
                     loop

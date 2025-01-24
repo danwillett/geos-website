@@ -14,9 +14,9 @@ export default function Home() {
         title: 'GEOS Center',
         description:
           "Getting all your geospatial data needs done",
-        video: "../media/videos/borderfield_dunes.mp4",
-        imageText: 'Colombia Mountain Landscape, credit: Jeff Gale',
-        credit: 'Photo by Jeff Gale, 2012'
+        video: "../media/videos/banner_vid.mp4",
+        // imageText: 'Colombia Mountain Landscape, credit: Jeff Gale',
+        // credit: 'Photo by Jeff Gale, 2012'
       };
 
       const featuredProjects = [
